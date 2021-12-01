@@ -1,0 +1,90 @@
+.canvasGraph {
+    width: 500px;
+    height: 300px;
+    background: #efe9e9;
+    border-radius: 10px;
+    border: black solid 1px;
+    margin: 0;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+}
+
+.input {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-flow: row wrap;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.input_left {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 0 auto;
+}
+
+.input_right {
+    border: black solid 1px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: flex-start;
+    width: 50%;
+    height: 300px;
+    overflow-y: scroll;
+}
+
+.input_center {
+    margin: 0 auto;
+}
+
+@media (min-width: 757px) and (max-width: 1290px) {
+    .input {
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .canvasGraph {
+        margin: 0 auto 15px;
+        width: 500px;
+    }
+    .input_left {
+        width: 500px;
+        margin: 0;
+        padding: 0;
+    }
+    .input_right {
+        width: 500px;
+        margin: 0;
+        padding: 0;
+    }
+    .input_center {
+        width: 500px;
+        margin: 0;
+        padding: 0;
+    }
+}
+@media (max-width: 756px) {
+    .input {
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .canvasGraph {
+        width: 300px;
+    }
+    .input_right {
+        width: 300px;
+        margin: 0;
+        padding: 0;
+    }
+    .input_center {
+        width: 300px;
+        margin: 0;
+        padding: 0;
+    }
+}

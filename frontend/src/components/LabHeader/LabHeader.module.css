@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro&family=Krub:wght@200&family=Rajdhani&display=swap');
+
+
+.main_header {
+    margin: 3px;
+    display: flex;
+    justify-content: space-between;
+    height: 200px;
+    width: 100%;
+    font-size: 3em;
+    font-family: 'Rajdhani', sans-serif;
+}
+
+.main_header > .text {
+    margin: 10px;
+}
+
+@media (max-width: 756px) {
+    .main_header {
+        font-size: 1.5em;
+    }
+}
+
+@media (min-width: 757px) and (max-width: 1269px) {
+    .main_header {
+        font-size: 2em;
+    }
+}

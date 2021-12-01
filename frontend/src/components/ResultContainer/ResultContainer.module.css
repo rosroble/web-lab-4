@@ -1,0 +1,19 @@
+.resultContainer {
+    border: #eec9c9 solid 1px;
+    display: table;
+    width: 100%;
+}
+.resultContainer table {
+    width: 100%;
+    background-color: rgba(250, 235, 215, 0.64);
+    transition-property: background-color;
+    transition-duration: 3s;
+    overflow-y: auto;
+    height: 100%;
+    display: flow;
+}
+
+.resultContainer tr {
+    text-align: center;
+    font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+}
